@@ -1,3 +1,4 @@
+
 package com.mkyong.controller;
 
 import org.slf4j.LoggerFactory;
@@ -12,7 +13,9 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class BaseController {
 
 	private static int counter = 0;
+	
 	private static final String VIEW_INDEX = "index";
+	
 	private final static org.slf4j.Logger logger = LoggerFactory.getLogger(BaseController.class);
 
 	@RequestMapping(value = "/", method = RequestMethod.GET)
