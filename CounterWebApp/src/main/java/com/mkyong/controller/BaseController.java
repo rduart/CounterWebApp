@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 public class BaseController {
 
 	
-	// this is a test
+	// this is a test   --- Next test   
 	private static int counter = 0;
 	
 	private static final String VIEW_INDEX = "index";
