@@ -12,6 +12,8 @@ import org.springframework.web.bind.annotation.RequestMethod;
 @Controller
 public class BaseController {
 
+	
+	// this is a test
 	private static int counter = 0;
 	
 	private static final String VIEW_INDEX = "index";
